@@ -1,0 +1,17 @@
+body {
+    align: center;
+}
+article {
+    padding:20px;
+    border:1px solid grey;
+    display: inline-block;
+}
+ul {
+    list-style-type: none;
+}
+li:first-child {
+    font-weight: bold;
+}
+footer {
+    border: 1px solid grey;
+}
