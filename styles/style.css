@@ -1,10 +1,28 @@
-
+body {
+    background-color: #FFF4F4;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+a, h1 {
+    font-family: p22-arts-and-crafts,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 80px;
+}
+a { /*detta block skriver över länkarnas storlek*/
+    font-size: 30px;
+    margin:80px ;
+}
+h2{
+    margin-top: 50px;
+}
 article {
     padding:20px;
     border:1px solid grey;
     display: inline-block;
 }
 ul {
+    color: #FF7F00;
     list-style-type: none;
 }
 li:first-child {
@@ -12,4 +30,8 @@ li:first-child {
 }
 footer {
     border: 1px solid grey;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: small;
+    margin-top: 80px;
 }
