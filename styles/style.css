@@ -23,6 +23,7 @@ h2{
     margin-top: 50px;
 }
 article {
+    margin: 30px;
     padding:20px;
     display: inline-block;
 }
@@ -33,11 +34,14 @@ ul {
 li:first-child {
     font-weight: bold;
 }
+img {
+    margin: 80px;
+}
 footer {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: small;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 .border{
     border-top: 1px solid rgb(117, 12, 12);
