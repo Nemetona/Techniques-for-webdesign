@@ -3,22 +3,27 @@ body {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
-a, h1 {
-    font-family: p22-arts-and-crafts,sans-serif;
-    font-weight: 700;
+h1 {
+    font-family: p22-arts-and-crafts, sans-serif;
+    font-weight: 300;
     font-style: normal;
     font-size: 80px;
+    color: #FFF4F4;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 a { /*detta block skriver över länkarnas storlek*/
+    font-family: p22-arts-and-crafts,sans-serif;
+    font-weight: 300;
     font-size: 30px;
     margin:80px ;
+    color:black;
+    text-decoration: none;
 }
 h2{
     margin-top: 50px;
 }
 article {
     padding:20px;
-    border:1px solid grey;
     display: inline-block;
 }
 ul {
@@ -29,9 +34,12 @@ li:first-child {
     font-weight: bold;
 }
 footer {
-    border: 1px solid grey;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: small;
     margin-top: 80px;
+}
+.border{
+    border-top: 1px solid rgb(117, 12, 12);
+    border-bottom: 1px solid rgb(117, 12, 12);
 }
