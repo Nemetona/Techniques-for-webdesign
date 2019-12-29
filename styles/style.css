@@ -20,19 +20,17 @@ a { /*detta block skriver över länkarnas storlek*/
     text-decoration: none;
 }
 h2{
-    margin-top: 35px;
+    margin-top: 50px;
 }
 article {
-    
-    padding:6px;
-    width:300px;
-    border: 1px solid black;
+    width:200px;
     display: inline-block;
-    
+    border: 1px solid rgb(117, 12, 12);
 }
 ul {
     color: #FF7F00;
     list-style-type: none;
+    padding: 0;
 }
 li:first-child {
     font-weight: bold;
