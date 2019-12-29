@@ -30,13 +30,13 @@ article {
 ul {
     color: #FF7F00;
     list-style-type: none;
-    padding: 0;
+    padding: 0; /* här tar vi bort punkterna på ul för att skapa rätt avstånd mellan texterna i kontaktuppgifter */
 }
 li:first-child {
     font-weight: bold;
 }
 img {
-    margin: 80px;
+    margin: 30px;
 }
 footer {
     font-family: 'Courier New', Courier, monospace;
