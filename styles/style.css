@@ -11,16 +11,22 @@ h1 {
     color:black
    
 }
+nav{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+div{
+    width: 33.33%;
+    float: left;
+}
 a { /*detta block skriver över länkarnas storlek*/
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 20px;
-    margin:80px;
+    /* margin:80px; */
     color:black;
-
     text-decoration-color: #FFF4F4;
-    
-    
 }
 h2{
     margin-top: 50px;
