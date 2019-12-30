@@ -5,19 +5,22 @@ body {
 }
 h1 {
     font-family: p22-arts-and-crafts, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 45px;
-    color: #FFF4F4;
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-weight: bold;
+    font-style:regular;
+    font-size: 50px;
+    color:black
+   
 }
 a { /*detta block skriver över länkarnas storlek*/
-    font-family: p22-arts-and-crafts,sans-serif;
-    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     font-size: 20px;
-    margin: 80px;
+    margin:80px;
     color:black;
-    text-decoration: none;
+
+    text-decoration-color: #FFF4F4;
+    
+    
 }
 h2{
     margin-top: 50px;
