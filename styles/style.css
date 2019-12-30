@@ -6,14 +6,14 @@ body {
 h1 {
     font-family: p22-arts-and-crafts, sans-serif;
     font-weight: bold;
-    font-style:regular;
+    font-style:normal;
     font-size: 50px;
     color:black
    
 }
 nav{
     margin: auto;
-    width: 80%;
+    width: 100%;
     padding: 10px;
 }
 div{
@@ -23,7 +23,7 @@ div{
 a { /*detta block skriver över länkarnas storlek*/
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     /* margin:80px; */
     color:black;
     text-decoration-color: #FFF4F4;
