@@ -1,43 +1,73 @@
 body {
     background-color: rgb(238, 254, 255);
     width: 100%;
-    text-align: center;
+    height: 100%;
+    /* text-align: center; */
     font-family: mina, Courier, monospace;
 }
-h1 {
+/* h1 {
     font-family: mina, Courier, monospace;
     background-color: rgba(58,124,180,1);
-    color: white
+    color: white;
+
+    font-weight: bold;
+    font-style: normal;
+    font-size: 130%;
 }
 a {
     font-family: mina, Courier, monospace;
  
+} */
+
+/* skriver över div-css i styles.css för att denna sida inte ska fungera som landningsidan längre */
+div { 
+    /* border: 1px solid black; */
+    /* float: none;
+    width: auto;
+    display: block; */
 }
-.center {
+
+
+/* .center {
     display: inline-block;
-  margin: 0 auto;
-  border: 1px solid black;
-}
-.center-banner {
+    margin: 0 auto;
+} */
+
+/* css för header banner */
+.banner-container{
+    width: 80%;
     height: 20%;
+    /* background: aqua; */
+    margin: auto;
+    padding: 10px;
+}
+.banner-header {
+    color: white;
+    font-size: 35px;
+    height: 74px;
+    text-align: center;
     background-color: rgba(58,124,180,1);
 }
-.left-top {
+.banner-wing-left{
+    float: left;
+    width: 10%;
+}
+.banner-wing-right{
+    float: right;
+    width: 10%;
+}
+.banner-wing-left-top {
     background: linear-gradient(225deg, rgba(58,124,180,1) 0%, rgba(58,124,180,1) 50%, rgb(238, 254, 255) 50%,rgb(238, 254, 255) 100%);
 }
-.left-bottom {
+.banner-wing-left-bottom {
     background: linear-gradient(315deg, rgba(58,124,180,1) 0%, rgba(58,124,180,1) 50%, rgb(238, 254, 255) 50%,rgb(238, 254, 255) 100%);
 }
-
-.right-top {
+.banner-wing-right-top {
     background: linear-gradient(135deg, rgba(58,124,180,1) 0%, rgba(58,124,180,1) 50%, rgb(238, 254, 255) 50%,rgb(238, 254, 255) 100%);
 }
-.right-bottom {
+.banner-wing-right-bottom {
     background: linear-gradient(45deg, rgba(58,124,180,1) 0%, rgba(58,124,180,1) 50%, rgb(238, 254, 255) 50%,rgb(238, 254, 255) 100%);
 }
-
-.triangle {
-    width: 10%;
-    height: 10%;
-    float:none;
+.banner-triangle {
+    /* float: none; */
 }
