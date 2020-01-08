@@ -33,30 +33,34 @@ div{
     margin: auto;
     padding: 10px;
 }
+/* vänster vinge */
+.banner-wing-left{
+    float: left;
+    width: 10%;
+}
+.banner-wing-left-top {
+    background: linear-gradient(225deg, rgb(58,124,180) 0%, rgb(58,124,180) 50%, rgb(238, 254, 255) 50%, rgb(238, 254, 255) 100%);
+}
+.banner-wing-left-bottom {
+    background: linear-gradient(315deg, rgb(58,124,180) 0%, rgb(58,124,180) 50%, rgb(238, 254, 255) 50%, rgb(238, 254, 255) 100%);
+}
+/* banners text container */
 .banner-header {
     color: white;
     font-size: 35px;
     height: 74px;
     text-align: center;
-    background-color: rgba(58,124,180,1);
+    background-color: rgb(58,124,180);
 }
-.banner-wing-left{
-    float: left;
-    width: 10%;
-}
+/* höger vinge */
 .banner-wing-right{
     float: right;
     width: 10%;
 }
-.banner-wing-left-top {
-    background: linear-gradient(225deg, rgba(58,124,180,1) 0%, rgba(58,124,180,1) 50%, rgb(238, 254, 255) 50%,rgb(238, 254, 255) 100%);
-}
-.banner-wing-left-bottom {
-    background: linear-gradient(315deg, rgba(58,124,180,1) 0%, rgba(58,124,180,1) 50%, rgb(238, 254, 255) 50%,rgb(238, 254, 255) 100%);
-}
 .banner-wing-right-top {
-    background: linear-gradient(135deg, rgba(58,124,180,1) 0%, rgba(58,124,180,1) 50%, rgb(238, 254, 255) 50%,rgb(238, 254, 255) 100%);
+    background: linear-gradient(135deg, rgb(58,124,180) 0%, rgb(58,124,180) 50%, rgb(238, 254, 255) 50%, rgb(238, 254, 255) 100%);
 }
 .banner-wing-right-bottom {
-    background: linear-gradient(45deg, rgba(58,124,180,1) 0%, rgba(58,124,180,1) 50%, rgb(238, 254, 255) 50%,rgb(238, 254, 255) 100%);
+    background: linear-gradient(45deg, rgb(58,124,180) 0%, rgb(58,124,180) 50%, rgb(238, 254, 255) 50%, rgb(238, 254, 255) 100%);
 }
+/* här slutar bannern */
