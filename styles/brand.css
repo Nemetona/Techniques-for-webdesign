@@ -107,6 +107,20 @@ p {
 }
 /* här slutar grids */
 
+.side-grid {
+    width: 80%;
+    margin: 40px auto 0px;
+    display: grid;
+    grid-template-columns: 30% 40% 29%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+.side-grid > div{
+    background: rgb(178, 243, 255);
+    padding: 1em;
+    text-align: left;
+}
+
 .text-left {
     text-align: left;
 }
