@@ -1,0 +1,48 @@
+/* header-banner */
+.sidebanner-container{
+    width: 20%;
+    height: 80%;
+    margin: 30px auto;
+}
+/* vänster-vinge */
+.sidebanner-wing-left{
+    float: left;
+    width: 10%;
+    height: 100%;
+}
+/* vänster-vinge-topp */
+.banner-wing-left-top {
+    height: 50%;
+    background: linear-gradient(225deg, rgb(58,124,180) 0%, rgb(58,124,180) 50%, rgb(238, 254, 255) 50%, rgb(238, 254, 255) 100%);
+}
+/* vänster-vinge-botten */
+.banner-wing-left-bottom {
+    height: 50%;
+    background: linear-gradient(315deg, rgb(58,124,180) 0%, rgb(58,124,180) 50%, rgb(238, 254, 255) 50%, rgb(238, 254, 255) 100%);
+}
+/* text-innehåll på bannern */
+.banner-header {
+    color: white;
+    font-size: 4vw; /* textstorlek baserat på vyns storlek */
+    height: 100%;
+    text-align: center;
+    font-family: mina, Courier, monospace;
+    background-color: rgb(58,124,180);
+    /* overflow: hidden; */
+}
+/* höger vinge */
+.banner-wing-right{
+    float: right;
+    width: 10%;
+    height: 100%;
+}
+/* höger-vinge-topp */
+.banner-wing-right-top {
+    height: 50%;
+    background: linear-gradient(135deg, rgb(58,124,180) 0%, rgb(58,124,180) 50%, rgb(238, 254, 255) 50%, rgb(238, 254, 255) 100%);
+}
+/* höger-vinge-botten */
+.banner-wing-right-bottom {
+    height: 50%;
+    background: linear-gradient(45deg, rgb(58,124,180) 0%, rgb(58,124,180) 50%, rgb(238, 254, 255) 50%, rgb(238, 254, 255) 100%);
+}

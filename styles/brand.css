@@ -48,7 +48,7 @@ p {
 .banner-container{
     width: 80%;
     height: 20%;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 /* vänster vinge */
 .banner-wing-left{
@@ -119,4 +119,7 @@ p {
 .menu-block {
     width: 33.33%;
     float: left;
+}
+.h5-no-margin {
+ margin-bottom: 0px;
 }
