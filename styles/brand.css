@@ -36,12 +36,9 @@ article {
 ul {
     color: rgb(117, 12, 12);
     list-style-type: none;
-    padding: 0; /* här tar vi bort punkterna på ul för att skapa rätt avstånd mellan texterna i kontaktuppgifter */
+    padding: 0; /* här tar vi bort listpunkterna på ul för att skapa rätt avstånd mellan texterna i kontaktuppgifter */
 }
 
-p {
-    color: rgb(58,124,180);
-}
 /* nedan kommer de css klasser som främst används för att styla min personliga sida */
 
 /* css för header banner */
@@ -96,7 +93,7 @@ p {
     width: 80%;
     margin: 0 auto;
     display:grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 71% 29%;
     grid-column-gap: 1em;
     grid-row-gap: 1em;
 }
@@ -105,13 +102,22 @@ p {
     padding: 1em;
     text-align: left;
 }
+.grid-container > article, p{
+    background: rgb(178, 243, 255);
+    padding: 1em;
+    text-align: left;
+    /* nedan i denna klass skriver över article i gruppens style.css */
+    width: auto; 
+    display: inline;
+    border: none;
+}
 /* här slutar grids */
 
 .side-grid {
     width: 80%;
     margin: 40px auto 0px;
     display: grid;
-    grid-template-columns: 30% 40% 29%;
+    grid-template-columns: 29% 42% 29%;
     grid-column-gap: 1em;
     grid-row-gap: 1em;
 }
@@ -120,7 +126,11 @@ p {
     padding: 1em;
     text-align: left;
 }
-
+.side-grid > aside{
+    background: rgb(178, 243, 255);
+    padding: 1em;
+    text-align: left;
+}
 .text-left {
     text-align: left;
 }
@@ -134,6 +144,8 @@ p {
     width: 33.33%;
     float: left;
 }
-.h5-no-margin {
- margin-bottom: 0px;
-}
+/* anger hashtags i aside med enstaka ord som fetmarkeras*/
+ .stor-sanserif {
+    font-family: sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+ }
