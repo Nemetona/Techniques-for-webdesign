@@ -39,6 +39,14 @@ ul {
     padding: 0; /* här tar vi bort listpunkterna på ul för att skapa rätt avstånd mellan texterna i kontaktuppgifter */
 }
 
+li:first-child {
+    font-weight: normal;
+}
+
+iframe{
+    border: 0px;
+}
+
 /* nedan kommer de css klasser som främst används för att styla min personliga sida */
 
 /* css för header banner */
@@ -69,7 +77,6 @@ ul {
     text-align: center;
     font-family: mina, Courier, monospace;
     background-color: rgb(58,124,180);
-    /* overflow: hidden; */
 }
 
 /* höger vinge */
@@ -88,7 +95,26 @@ ul {
 }
 /* här slutar bannern */
 
-/* här börjar grid-relaterad css */
+/* här börjar första grid-stycket */
+.side-grid {
+    width: 80%;
+    margin: 40px auto 0px;
+    display: grid;
+    grid-template-columns: 29% 42% 29%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+.side-grid > div{
+    background: rgb(178, 243, 255);
+    padding: 1em;
+}
+.side-grid > aside{
+    background: rgb(178, 243, 255);
+    padding: 1em;
+    text-align: left;
+}
+
+/* här börjar andra grid-stycket */
 .grid-container {
     width: 80%;
     margin: 0 auto;
@@ -113,24 +139,7 @@ ul {
 }
 /* här slutar grids */
 
-.side-grid {
-    width: 80%;
-    margin: 40px auto 0px;
-    display: grid;
-    grid-template-columns: 29% 42% 29%;
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
-}
-.side-grid > div{
-    background: rgb(178, 243, 255);
-    padding: 1em;
-    text-align: left;
-}
-.side-grid > aside{
-    background: rgb(178, 243, 255);
-    padding: 1em;
-    text-align: left;
-}
+
 .text-left {
     text-align: left;
 }
@@ -145,7 +154,7 @@ ul {
     float: left;
 }
 /* anger hashtags i aside med enstaka ord som fetmarkeras*/
- .stor-sanserif {
+.keyword {
     font-family: sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
  }
