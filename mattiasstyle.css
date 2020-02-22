@@ -90,6 +90,10 @@ font-size: 13px;
 
 }
 
+figure {
+    padding:0px;
+    margin: 0px;
+}
 
 .list-dot {
 
